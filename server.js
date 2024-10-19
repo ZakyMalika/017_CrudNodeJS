@@ -4,7 +4,7 @@ import bodyParser from 'body-parser';
 const app = express();
 const PORT = 8000;
 
-app.get('/', function(req,res){res.send("JAKI ANIP")});
+app.get('/', function(req,res){res.send('alpan')});
 app.use(bodyParser.json());
 app.listen(PORT, ()=>
      console.log(
